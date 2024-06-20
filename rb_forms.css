@@ -40,7 +40,7 @@ div.formRow {
 
 div.formRow > * {
    -webkit-flex: 1 1 150px;
-   flex: 1 1 150 px;
+   flex: 1 1 150px;
 }
 
 /* Legend Styles */
@@ -53,25 +53,32 @@ legend {
 
 /* Text Area Styles */
 
-input::-webkit-input-placeholder{
-   color: rgb(255, 151, 151);
-}
-
-input::-ms-input-placeholder{
-   color: rgb(255, 151, 151);
-}
-
-input::-moz-input-placeholder{
-   color: rgb(255, 151, 151);
+textarea{
+   margin-top: 10px;
+   height: 100px;
+   width: 95%;
 }
 
 /* Spinner Styles */
 
-
+div.formRow > input#dineSpin {
+   -webkit-flex: 0 0 50px;
+   flex: 0 0 50px;
+}
 
 /* Form Button Styles */
 
+div#buttons {
+   text-align:  center;
+   width: 100%;
+}
 
+input[type='submit'], input[type='reset'] {
+   font-size: 1.2em;
+   padding: 5px;
+   margin: 7px;
+   width: 22%;
+}
 
 /* Validation Styles */
 
